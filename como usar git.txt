@@ -1,0 +1,12 @@
+
+primero:
+
+1 git clone repo : hacer una copia de lo que esta en git. se hace una vez al dia.
+ 
+ (Cd C tab, para entrar en la carpeta)
+
+2 git add . : añade los archivos nuevos creados. 
+
+3 git commit -M "comentario del commit" :  marcar el commit. y que es el commit? es el comentario sobre el cambio que hiciste. 
+
+4 git push : esto lo sube a la web
