@@ -66,7 +66,7 @@ function multiplicar()
 	multiplicar=primerNumero*segundoNumero;
 
 
-	alert("la multiplición es " +multiplicar);
+	alert("la multiplicación es " +multiplicar);
 }
 
 function dividir()
@@ -91,6 +91,6 @@ function dividir()
 	alert("la división es " +division);
 
 
-	
+
 }
 
