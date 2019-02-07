@@ -5,7 +5,7 @@ function sumar()
 {
 	var primerNumero;
 	var segundoNumero;
-	var suma
+	var suma;
 
 
 	primerNumero=numeroUno.value;
