@@ -8,20 +8,16 @@ function sumar()
 	var segundoNumero;
 	var suma;
 
-
 	primerNumero=numeroUno.value;
 	segundoNumero=numeroDos.value;
-
-	
 
 	primerNumero=parseInt(primerNumero);
 	segundoNumero=parseInt(segundoNumero);
 
-
 	suma=primerNumero+segundoNumero;
 
+	alert("la suma es "+suma);
 
-	alert("la suma es " +suma);
 
 }
 
@@ -31,66 +27,50 @@ function restar()
 	var segundoNumero;
 	var resta;
 
-
 	primerNumero=numeroUno.value;
 	segundoNumero=numeroDos.value;
-
-	
 
 	primerNumero=parseInt(primerNumero);
 	segundoNumero=parseInt(segundoNumero);
 
-
 	resta=primerNumero-segundoNumero;
 
+	alert("la resta es "+resta);
+	
 
-	alert("la resta es " +resta);
 }
 
 function multiplicar()
 { 
 	var primerNumero;
 	var segundoNumero;
-	var multiplicar;
-
+	var multiplicación;
 
 	primerNumero=numeroUno.value;
 	segundoNumero=numeroDos.value;
 
-	
-
 	primerNumero=parseInt(primerNumero);
 	segundoNumero=parseInt(segundoNumero);
 
+	multiplicación=primerNumero*segundoNumero;
 
-	multiplicar=primerNumero*segundoNumero;
-
-
-	alert("la multiplicación es " +multiplicar);
+	alert("la multiplicación es "+multiplicación);
 }
 
 function dividir()
 {
 	var primerNumero;
 	var segundoNumero;
-	var division;
-
+	var división;
 
 	primerNumero=numeroUno.value;
 	segundoNumero=numeroDos.value;
 
-	
-
 	primerNumero=parseInt(primerNumero);
 	segundoNumero=parseInt(segundoNumero);
 
+	división=primerNumero/segundoNumero;
 
-	division=primerNumero/segundoNumero;
-
-
-	alert("la división es " +division);
-
-
-
+	alert("la división es "+división);
 }
 

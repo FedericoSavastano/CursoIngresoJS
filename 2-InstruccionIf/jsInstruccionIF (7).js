@@ -1,20 +1,22 @@
 function mostrar()
 {
 //tomo la edad  
-	var laEdad;
-	var situacionSentimental;
-	var mensaje;
+	var edadIngresada;
+	var estadoCivilIngresado;
 
+	edadIngresada=edad.value;
+	estadoCivilIngresado=estadoCivil.value;
 
-	laEdad=edad.value;
-	situacionSentimental=estadoCivil.value;
+	edadIngresada=parseInt(edadIngresada);
 
-	laEdad=parseInt(laEdad);
-
-	if(laEdad<18 && situacionSentimental=="Soltero")
+	if(edadIngresada<18 && estadoCivilIngresado=="Casado")
+	{
+		alert("Es muy pequeño para NO ser soltero");
+	}else if(edadIngresada<18 && estadoCivilIngresado=="Divorciado")
 	{
 		alert("Es muy pequeño para NO ser soltero");
 	}
+
 
 	
 

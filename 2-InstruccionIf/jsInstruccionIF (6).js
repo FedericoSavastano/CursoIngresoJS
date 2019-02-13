@@ -2,50 +2,22 @@ function mostrar()
 {
 //tomo la edad  
 
+	var edadIngresada;
 
-	var laEdad;
+	edadIngresada=edad.value;
+	edadIngresada=parseInt(edadIngresada);
 
-	laEdad=edad.value;
-
-	laEdad=parseInt(laEdad);
-
-	if(laEdad>18)
-	{
-		alert("usted es mayor de edad");
-	}
-	else if(laEdad<13)
-			{ 
-				alert("usted es un niño/a");
-			}
-			else
-				{
-					alert("usted es adolescente");
-				}
-	
+	if(edadIngresada>17)
+		{
+			alert("Usted es mayor de edad");
+		}else if(edadIngresada<13)
+		{
+			alert("Usted es un niño/a");
+		}else
+		{
+			alert("Usted es una adolescente");
+		}
 
 
-
-
-
-
-/*
-	if(laEdad>18)
-	{
-		alert("usted es mayor de edad");
-	}
-	
-
-	if(laEdad>13 && laEdad<17)
-	{
-		alert("usted es adolescente");
-	}
-	
-	if(laEdad<12)
-	{
-		alert("usted es niño/a");
-	}
-
-
-*/
 
 }//FIN DE LA FUNCIÓN

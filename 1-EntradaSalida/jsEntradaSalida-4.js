@@ -4,14 +4,14 @@
 */
 function mostrar()
 {
-var nombre;
+	
+	var nombreIngresado;
 
-	nombre=prompt("Por favor ingrese su nombre");
-	//elNombre.value=nombre
-	document.getElementById("elNombre").value=nombre;
+	nombreIngresado=prompt("ingrese su nombre","nombre y apellido");
 
+	getElementById(elNombre).value=nombreIngresado;
 
-
+	//elNombre.value=nombreIngresado;
 
 
 }
