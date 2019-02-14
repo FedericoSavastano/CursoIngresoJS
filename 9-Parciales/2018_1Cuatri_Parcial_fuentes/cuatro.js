@@ -27,30 +27,31 @@ function mostrar()
 
 
 	if(productosComprados>2 && valorCompra>2000)
-	{
-		valorFinal=valorCompra*0.75;
-	}else if(productosComprados>2 && valorCompra<2000)
+		{
+			valorFinal=valorCompra*0.75;
+		}
+		else if(productosComprados>2 && valorCompra<2000)
 		{
 			valorFinal=valorCompra*0.90;
 		}else
 		{
 			valorFinal=valorCompra*1;
-		}
+		} 
 
-
-	if(recargoTarjeta=="tarjeta")
+		if(recargoTarjeta=="tarjeta")
 		{
 			valorFinal=valorCompra*1.10;
 		}
+
 
 	alert("Su costo final es "+valorFinal);
 
 
 
 
-/*
-version vista en clase:
 
+//version vista en clase:
+/*
 
 
 	if(productos>2)
@@ -69,6 +70,6 @@ version vista en clase:
 
 	alert("Su costo final es "+valorFinal);
 	
-}
 */
+
 }
