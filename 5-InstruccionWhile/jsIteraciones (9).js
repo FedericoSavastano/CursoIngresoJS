@@ -64,7 +64,8 @@ function mostrar()
 	
 	}
 
-	document.getElementById.("minimo").value=minimo;
-	idem maximo
+	document.getElementById("minimo").value=minimo;
+	document.getElementById("maximo").value=maximo;
+	
 
 }//FIN DE LA FUNCIÓN
