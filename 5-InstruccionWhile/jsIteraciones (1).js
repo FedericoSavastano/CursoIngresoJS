@@ -1,6 +1,27 @@
 function mostrar()
 {
 	
+	var contador=0;
+
+	while(contador<10)
+	{
+		
+		contador=contador+1;
+		document.write(contador);
+		//console.log(contador);
+	}
+
+
+//document.write(contador);
+
+
+
+
+
+
+
+
+	/*
 
 	var i=0 //al contador se lo llama I por convencion
 

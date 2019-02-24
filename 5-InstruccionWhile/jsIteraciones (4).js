@@ -1,6 +1,23 @@
 function mostrar()
 {
+	var numero
 
+	numero=prompt("Ingrese un numero entre 0 y 9");
+
+	numero=parseInt(numero);
+
+	while(numero<0 || numero>9)
+	{
+		alert("numero mal puto");
+		numero=prompt("NO, Ingrese un numero entre 0 y 9");
+	}
+
+
+ Numero.value=numero;
+
+
+
+/*
 	var numero = prompt("ingrese un número entre 0 y 10.");
 
 	numero=parseInt(numero);
@@ -13,7 +30,7 @@ function mostrar()
 		(numero<0 || numero>9) este si esta bien,
 		otra es buscar la negacion del primero tipo (!(numero>0 && numero<10))
 	*/
-
+/*
 	while (numero<0 || numero>9)
 	{
 		alert("numero invalido");
@@ -21,5 +38,6 @@ function mostrar()
 	}
 
 Numero.value=numero;
+*/
 
 }//FIN DE LA FUNCIÓN

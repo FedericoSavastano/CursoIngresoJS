@@ -1,6 +1,42 @@
 function mostrar()
 {
 
+	var clave;
+	var intentos=0;
+
+	clave=prompt("Ingrese la clave");
+
+	while(clave!="UTN750")
+	{
+		intentos=intentos+1;
+		if(intentos<3)
+		{
+			alert("clave incorrecta!, ingrese nuevamente");
+			clave=prompt("ingrese la clave");
+		}
+		else
+		{
+			alert("salga de aca, ya probó mucho")
+			break;
+		}
+		if(clave=="UTN750")
+		{
+			alert("clave correcta. bienvenido");
+		}
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+/*
 	var clave = prompt("ingrese la clave");
 	var intentos = 0;
 	var flag = false;
@@ -12,7 +48,6 @@ function mostrar()
 		clave = prompt("ingrese la clave");
 	}
 
-*/
 	while(clave!="UTN750")
 	{
 		alert("Clave incorrecta. Reingrese");
@@ -32,6 +67,8 @@ function mostrar()
 	
 
 
+
+*/
 
 
 
