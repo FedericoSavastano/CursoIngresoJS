@@ -1,5 +1,27 @@
 function mostrar()
 {
+	
+
+
+	var palabra;
+
+	palabra="Luz azul";
+
+	//console.log(palabra[0]); esto muestra la primera letra
+
+	for(i=0;i<palabra.length;i++)
+	{
+		console.log(palabra[i]);
+	}
+
+
+	
+
+
+
+
+/*
+
 	var numeroIngresado;
 	var numeroAnterior;
 	var numeroRecorrido;
@@ -27,5 +49,5 @@ function mostrar()
 
 
 	}
-
+*/
 }
