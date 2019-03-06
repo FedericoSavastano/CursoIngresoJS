@@ -1,6 +1,43 @@
 function mostrar()
 {
 	
+	/*
+	var dia;
+	var mensaje;
+
+	dia=prompt("Ingrese un dia");
+
+	switch(dia)
+	{
+		case lunes:
+		case "martes":
+		case "miercoles":
+		case "jueves":
+		case "viernes":
+		mensaje="a trabajar";
+		break;
+
+		case "sabado":
+		case "domingo":
+		mensaje="buen finde":
+		break;
+
+		default:
+		mensaje="ese no es un dia valido";
+		break;
+
+	}
+
+	alert(mensaje);
+
+
+
+
+
+
+
+
+
 	/*cada habitacion de un hotel tiene un precio, hay promociones segunel tipo de pago
 	si es con tarjeta visa un 10%, si es por pay pal un 15%, por mercado pago un 10%, 
 	efectivo 20%, cualquier otro medio solo un 5%

@@ -1,5 +1,30 @@
 function mostrar()
 {
+	
+	var precioIngresado;
+	var porcentajeIngresado;
+	var convertirPorcentaje;
+	var descuento;
+	var precioAMostrar;
+
+
+	precioIngresado=prompt("Ingrese el precio");
+	precioIngresado=parseInt(precioIngresado);
+
+	porcentajeIngresado=prompt("Ingrese el porcentaje de descuento");
+	porcentajeIngresado=parseInt(porcentajeIngresado);
+
+	convertirPorcentaje=porcentajeIngresado*0.01;
+	descuento=precioIngresado*convertirPorcentaje;
+	precioAMostrar=precioIngresado- descuento;
+
+	alert(precioAMostrar);
+
+
+
+
+/*
+
 	var precioIngresado;
 	var porcentajeIngresado;
 	var porcentajeAQuitar;
@@ -25,6 +50,6 @@ function mostrar()
 	elPrecioFinal.value=precioFinal;
 
 
-
+*/
 
 }

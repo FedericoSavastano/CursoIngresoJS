@@ -1,6 +1,23 @@
 function mostrar()
 {
   
+
+    var nombreIngresado;
+    var localidadIngresada;
+
+    nombreIngresado=elNombre.value;
+    localidadIngresada=laLocalidad.value;
+
+    alert("usted es "+nombreIngresado+" y vive en la localidad de "+localidadIngresada);
+
+
+    /*
+
+
+
+
+
+
   var precioIngresado;
   var valorDelRecargo;
   var precioFinal;
@@ -20,7 +37,7 @@ function mostrar()
 
 //Version dos, si el valor del producto sale de un Id
 
-/*
+
   var precioIngresado;
   var valorDelRecargo;
   var precioFinal;
@@ -39,10 +56,10 @@ function mostrar()
 
 
 
-*/
 
 
-/*
+
+
   	var nombreIngresado;
   	var localidadIngresada;
 

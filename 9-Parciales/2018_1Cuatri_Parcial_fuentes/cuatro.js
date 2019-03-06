@@ -1,6 +1,47 @@
 function mostrar()
 {	
-	
+	var numeroUno;
+	var numeroDos;
+
+	numeroUno=prompt("Ingrese el primer numero");
+	numeroUno=parseInt(numeroUno);
+
+	numeroDos=prompt("Ingrese el segundo numero");
+	numeroDos=parseInt(numeroDos);
+
+
+	if(numeroUno==numeroDos)
+	{
+		mensaje=(numeroUno+" y "+numeroDos);
+	}else
+	{
+		if(numeroUno>numeroDos)
+		{
+			mensaje=numeroUno/numeroDos;
+		}else
+		{
+			if(numeroUno<numeroDos)
+			{
+				mensaje=numeroUno+numeroDos
+				if(mensaje<50)
+				{
+					mensaje=("la suma es "+mensaje+" y es menor a 50");
+				}
+			}
+		}
+	}
+
+
+
+	alert(mensaje);
+
+
+
+
+/*
+
+
+
 	var importeUno;
 	var importeDos;
 	var importeTres;
